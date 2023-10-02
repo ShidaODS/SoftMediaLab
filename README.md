@@ -1,8 +1,9 @@
 # Simple application with Spring Boot and PostgreSQL.
 1. Для запуска приложения необходима БД PostgreSQL (можно воспользоваться докером и запустить из папки проекта docker-compose up).
 2. Создать базу данные studentTest.
-3. Ссылка на Swagger: http://localhost:8090/testtask/swagger-ui/index.html#/
-4. Описание EndPoints:
+3. Собрать проект либо в IDE, либо с помощью инструментария mvn.
+4. Ссылка на Swagger: http://localhost:8090/testtask/swagger-ui/index.html#/
+5. Описание EndPoints:
    1) POST /api/AddStudent
       Метод добавления нового студента.
    2) DELETE /api/DeleteStudent
